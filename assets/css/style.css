@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+h1, h2 {
+    font-family: Lora, sans-serif;
+}
+
+/* Header styling */
+
+.heading {
+    text-decoration: none;
+    font-size: 200%;
+    color: black;
+    float: left;
+}
+
+.navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    font-size: 150%;
+    font-family: Lora, sans-serif;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.heading, .navigation {
+    line-height: 100px;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid red;
+    color: blue;
+}
+
+
+
