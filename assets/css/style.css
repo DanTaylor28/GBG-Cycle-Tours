@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 
 * {
     padding: 0;
@@ -7,29 +7,32 @@
 }
 
 h1, h2 {
-    font-family: Lora, sans-serif;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
 }
 
 /* Header styling */
 
 .heading {
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 200%;
-    color: black;
+    color: grey;
     float: left;
+    
 }
 
 .navigation li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 30px;
     font-size: 150%;
-    font-family: Lora, sans-serif;
+    font-family: Source-sans-pro, sans-serif;
 }
 
 .navigation a {
     text-decoration: none;
-    color: inherit;
+    color: grey;
 }
 
 .heading, .navigation {
@@ -37,9 +40,30 @@ h1, h2 {
 }
 
 .navigation a:hover {
-    border-bottom: 2px solid red;
-    color: blue;
+    border-bottom: 2px solid grey;
+    color: black;
 }
 
+/* Main image & text */
+
+
+#cityscape {
+    height: 800px;
+    width: 100%;
+    background: url(/assets/images/gbg-cycle.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+.opener {
+    text-transform: capitalize;
+    float: right;
+    text-align: center;
+    font-size: 200%;
+    margin-right: 25%;
+    margin-top: 10%;
+    border: 1px solid grey;
+    background-color:white;
+    padding: 5px;
+}
 
 
