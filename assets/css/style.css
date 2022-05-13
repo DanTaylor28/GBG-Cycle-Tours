@@ -6,9 +6,13 @@
     border: none;
 }
 
-h1, h2 {
+body { 
+    font-family: source-sans-pro, sans-serif;
+}
+
+h1, h2, h3 {
     font-family: Montserrat, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /* Header styling */
@@ -19,7 +23,6 @@ h1, h2 {
     font-size: 200%;
     color: grey;
     float: left;
-    
 }
 
 .navigation li {
@@ -33,6 +36,7 @@ h1, h2 {
 .navigation a {
     text-decoration: none;
     color: grey;
+    
 }
 
 .heading, .navigation {
@@ -47,7 +51,7 @@ h1, h2 {
 /* Main image & text */
 
 
-#cityscape {
+#bike {
     height: 800px;
     width: 100%;
     background: url(/assets/images/gbg-cycle.jpg) no-repeat center center;
@@ -69,15 +73,40 @@ h1, h2 {
 /* About section */
 
 .about {
-    font-size: 24px;
+    font-size: 20px;
+    font-family: inherit;
     margin: 30px;
+    text-align: center;
+    
 }
 
 .about h2 {
-    text-align: center;
-    font-size: 140%;
+    font-size: 200%;
     line-height: 100px;
 }
+
+#story {
+    width: 33%;
+    height: 300px;
+    background-color: blue;
+    float: left;
+    padding: 5px;
+}
+
+#info {
+    width: 33%;
+    height: 300px;
+    background-color: blueviolet;
+    float: right;
+    padding: 5px;
+}
+
+li {
+    list-style-position: inside;
+    text-align: left;
+}
+
+
 
 
 
