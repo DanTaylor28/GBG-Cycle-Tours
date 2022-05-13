@@ -20,16 +20,17 @@ h1, h2, h3 {
 .heading {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 200%;
+    font-size: 150%;
     color: grey;
     float: left;
+    margin-left: 30px;
 }
 
 .navigation li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    font-size: 150%;
+    font-size: 120%;
     font-family: Source-sans-pro, sans-serif;
 }
 
@@ -109,6 +110,38 @@ h1, h2, h3 {
     line-height: 40px;
     margin-left: 10px;
 }
+
+/* Footer */
+
+#copyright {
+    float: left;
+    margin: 25px;
+    font-size: 100%;
+    width: 45%;
+}
+
+.social-media {
+    font-size: 150%;
+}
+
+.social-media li {
+    float: left;
+    list-style-type: none;
+    margin: 25px;
+}
+
+ul {
+    float: right;
+}
+
+.social-media a {
+    color: black;
+}
+
+#award {
+    text-align: center;
+}
+
 
 
 
