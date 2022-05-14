@@ -142,6 +142,20 @@ ul {
     text-align: center;
 }
 
+#form {
+    background-image: url(/assets/images/gbg-cycle.jpg) no-repeat center center;
+    height: 800px;
+    width: 100%;
+}
+
+#background {
+    height: 800px;
+    width: 100%;
+    background: url(/assets/images/gbg-cycle.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+
 
 
 
