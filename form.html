@@ -31,20 +31,21 @@
             </ul>
         </nav>
     </header>
-    <section id="background">
-        <h2>Reach out to us!</h2>
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-            <label for="first">First Name:</label>
-            <input type="text" id="first" name="first_name" required>
-            <label for="last">Last Name:</label>
-            <input type="text" id="last" name="last_name" required>
-            <label for="phone">Telephone:</label>
-            <input type="tel" id="phone" name="phone_number">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="question"></label>
+    <section class="form-page">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="form-details">
+            <h2>Reach out to us!</h2>
+            <label for="first" class="input-name">First Name:</label>
+            <input type="text" id="first" name="first_name" required class="input-boxes">
+            <label for="last" class="input-name">Last Name:</label>
+            <input type="text" id="last" name="last_name" required class="input-boxes">
+            <label for="phone" class="input-name">Telephone:</label>
+            <input type="tel" id="phone" name="phone_number" class="input-boxes">
+            <label for="email" class="input-name">Email:</label>
+            <input type="email" id="email" name="email" required class="input-boxes">
+            <label for="question" class="input-name">Question:</label>
             <textarea cols="40" rows="10" id="question" name="question" required
-            placeholder="Enter your question here"></textarea>
+            placeholder="Ask Us Anything" class="question-box"></textarea>
+            <input type="submit" value="Ask a question">
         </form>
     </section>
     <footer>
