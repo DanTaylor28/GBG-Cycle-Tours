@@ -49,6 +49,10 @@ h1, h2, h3 {
     color: black;
 }
 
+.current-page {
+    border-bottom: 2px solid grey;
+}
+
 /* Main image & text */
 
 #bike {
@@ -163,6 +167,7 @@ ul {
 
 #award {
     text-align: center;
+    margin-top: 5px;
 
 }
 
