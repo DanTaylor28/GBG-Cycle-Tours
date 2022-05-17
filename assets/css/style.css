@@ -274,6 +274,16 @@ body {
     
 }
 
+#confirmation-text {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -95%);
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
 .input-boxes {
     width: 95%;
     background-color: rgba(211, 211, 211, 0.7);
@@ -313,6 +323,8 @@ textarea:hover {
     color: black;
     border: 1px solid black;
 }
+
+
 
 
 

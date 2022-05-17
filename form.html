@@ -33,7 +33,7 @@
     </header>
     <section class="form-page">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="form-details">
-            <h2>Reach out to us!</h2>
+            <h2>Lets Get Exploring!</h2>
             <label for="first" class="input-name">First Name:</label>
             <input type="text" id="first" name="first_name" required class="input-boxes">
             <label for="last" class="input-name">Last Name:</label>
@@ -42,12 +42,17 @@
             <input type="tel" id="phone" name="phone_number" class="input-boxes">
             <label for="email" class="input-name">Email:</label>
             <input type="email" id="email" name="email" required class="input-boxes">
-            <label for="question" class="input-name">Question:</label>
-            <textarea cols="40" rows="10" id="question" name="question" required
-            placeholder="Ask Us Anything"></textarea>
-            <input type="submit" id="submit-button" value="Send Your Question">
+            <label for="number" class="input-name">Number of People:</label>
+            <input type="number" id="number" name="people" class="input-boxes" min="1" required>
+            <label for="date" class="input-name">Date:</label>
+            <input type="date" id="date" name="date" required class="input-boxes">
+            <input type="submit" id="submit-button" value="Check Availability">
         </form>
+        <div id="confirmation-text">
+            <h3>We will get back to as soon as possible with a confirmation the dates you wanted are available</h3>
+        </div>
     </section>
+
     <footer>
         <div>
             <div id="copyright">
@@ -55,7 +60,7 @@
             </div>
             <img id="award"
                 src="https://www.freepnglogos.com/uploads/tripadvisor-logo-png/tripadvisor-logo-travel-reviews-arctic-panorama-lodge-28.png"
-                width="65" height="65" alt="tripadvisor logo, travel reviews arctic panorama lodge"/>
+                width="65" height="65" alt="tripadvisor logo, travel reviews arctic panorama lodge" />
             <ul class="social-media">
                 <li>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"
