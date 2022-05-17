@@ -55,23 +55,47 @@ h1, h2, h3 {
 
 /* Main image & text */
 
-#bike {
+#bike-image {
     height: 800px;
     width: 100%;
     background: url(/assets/images/gbg-cycle.jpg) no-repeat center center;
     overflow: hidden;
 }
 
-.opener {
+.opening-text {
+    color: black;
+    font-size: 120%;
     text-transform: capitalize;
-    float: right;
-    text-align: center;
-    font-size: 200%;
-    margin-right: 25%;
-    margin-top: 10%;
-    border: 1px solid grey;
-    background-color:white;
     padding: 10px;
+    border: 2px solid white;
+    background-color: rgba(211, 211, 211, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#booking-link {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+    font-size: larger;
+}
+
+#booking-link a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+#booking-link a:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
 }
 
 /* About section */
