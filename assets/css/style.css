@@ -65,6 +65,7 @@ h1, h2, h3 {
 .opening-text {
     color: black;
     font-size: 120%;
+    text-align: center;
     text-transform: capitalize;
     padding: 10px;
     border: 2px solid white;
@@ -140,12 +141,6 @@ h1, h2, h3 {
     margin: 100px 30px;
 }
 
-#map {
-    float: left;
-    width:50%;
-    text-align: center;
-}
-
 #info li {
     list-style-position: inside;
     list-style-type: circle;
@@ -187,12 +182,6 @@ ul {
 
 .social-media a {
     color: black;
-}
-
-#award {
-    text-align: center;
-    margin-top: 5px;
-
 }
 
 /* Info page */
