@@ -71,7 +71,7 @@ h1, h2, h3 {
     margin-top: 10%;
     border: 1px solid grey;
     background-color:white;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* About section */
@@ -169,6 +169,55 @@ ul {
     text-align: center;
     margin-top: 5px;
 
+}
+
+/* Info page */
+
+body {
+    height: 100%;
+    font-size: 20px;
+}
+
+#ocean-pic {
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/info-image.jpg) no-repeat center center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+#tour-info {
+    margin: 30px 15%;
+    line-height: 150%;
+}
+
+#location-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#meetup-point {
+    text-align: center;
+    margin: 30px 15%;
+}
+
+#meetup-point h2 {
+    margin-bottom: 10px;
+}
+
+#meetup-point p {
+    margin-top: 10px;
 }
 
 /* Form page */
