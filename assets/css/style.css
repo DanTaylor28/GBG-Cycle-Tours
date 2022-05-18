@@ -126,17 +126,28 @@ h1, h2, h3 {
     padding: 5px;
     overflow: hidden;
     margin-left: 10%;
-    
 }
 
 table {
-    margin: 50px auto;
+    margin: 30px auto;
     width: 50%;
     line-height: 120%;
+    border-collapse: collapse;
 }
 
 #data {
+    height: 200px;
     text-align: center;
+    margin-bottom: 10%;
+    background-color: rgb(211, 211, 211);
+}
+
+th, td {
+    padding: 5px;
+}
+
+tr {
+    border-bottom: 1px solid black;
 }
 
 /* Footer */
