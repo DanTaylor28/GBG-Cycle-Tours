@@ -187,7 +187,7 @@ tr {
 }
 
 .social-media li {
-    float: left;
+    float: right;
     list-style-type: none;
     margin: 25px;
 }
@@ -333,7 +333,7 @@ textarea:hover {
 
 /* Media Queries */
 
-/* For tablet screen sizes */
+/* For tablet screen sizes 1100px max width */
 
 /* index.html */
 
@@ -396,6 +396,60 @@ textarea:hover {
     }
 
 }
+
+/* For mobile screen sizes 600px max width */
+
+/* Index.html */
+
+@media screen and (max-width: 600px) {
+
+    .heading {
+        text-align: center;
+    }
+
+    .navigation {
+        margin: 0;
+    }
+
+    .navigation li {
+        margin: 15px;
+    }
+
+    .opening-text {
+        top: 90%;
+    }
+
+    #booking-link {
+        top: 130%;
+    }
+
+   #data {
+       margin: 30% 0 10%;
+   }
+
+    #picture {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #copyright {
+        margin: 10px;
+    }
+
+    .social-media li {
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+}
+
+
 
 
 
