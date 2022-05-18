@@ -104,55 +104,38 @@ h1, h2, h3 {
 .about {
     font-size: 20px;
     font-family: inherit;
-    margin: 10px 30px;
     text-align: center;
-    
-}
-
-.about h2 {
-    font-size: 200%;
-    line-height: 100px;
+    margin: 0 10%;
 }
 
 #story {
-    width: 33%;
-    height: 300px;
-    float: left;
-    padding: 5px;
+    margin: 30px 15%;
+    text-align: center;
+    height: 250px;
     line-height: 30px;
 }
 
-#why-bike {
-    width: 33%;
-    height: 300px;
-   
-    float: right;
+.why-bike {
+    display: flex;
+}
+
+#picture {
+    height: 400px;
+    width: 50%;
+    background: url(/assets/images/women-riding-bicycles.jpg) no-repeat center center;
     padding: 5px;
-}
-
-#city-pic {
-    background: url(/assets/images/gbg-city.jpg) no-repeat center center;
-    height: 300px;
     overflow: hidden;
+    margin-left: 10%;
+    
 }
 
-.practical {
-    font-family: inherit;
-    margin: 100px 30px;
+table {
+    margin: 50px auto;
+    width: 50%;
+    line-height: 120%;
 }
 
-#info li {
-    list-style-position: inside;
-    list-style-type: circle;
-    line-height: 40px;
-}
-
-#info {
-    font-size: 20px;
-}
-
-#info h2 {
-    font-size: 200%;
+#data {
     text-align: center;
 }
 
