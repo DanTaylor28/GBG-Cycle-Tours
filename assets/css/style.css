@@ -37,7 +37,6 @@ h1, h2, h3 {
 .navigation a {
     text-decoration: none;
     color: grey;
-    
 }
 
 .heading, .navigation {
@@ -52,6 +51,8 @@ h1, h2, h3 {
 .current-page {
     border-bottom: 2px solid grey;
 }
+
+/* Index.html page */
 
 /* Main image & text */
 
@@ -115,8 +116,32 @@ h1, h2, h3 {
     line-height: 30px;
 }
 
+table {
+    margin: 30px auto;
+    width: 50%;
+    line-height: 120%;
+    border-collapse: collapse;
+}
+
+#data {
+    height: 200px;
+    margin-bottom: 10%;
+    background-color: rgb(211, 211, 211);
+}
+
+th, td {
+    padding: 5px;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+/* Why take a bike tour section */
+
 .why-bike {
     display: flex;
+    flex-direction: row;
 }
 
 #picture {
@@ -125,7 +150,7 @@ h1, h2, h3 {
     background: url(/assets/images/women-riding-bicycles.jpg) no-repeat center center;
     padding: 5px;
     overflow: hidden;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 #list-items {
@@ -139,30 +164,12 @@ h1, h2, h3 {
     padding-bottom: 15px;
 }
 
+#list-div {
+    margin-left: 10%;
+}
+
 #last-section {
     margin-bottom: 5%;
-}
-
-table {
-    margin: 30px auto;
-    width: 50%;
-    line-height: 120%;
-    border-collapse: collapse;
-}
-
-#data {
-    height: 200px;
-    text-align: center;
-    margin-bottom: 10%;
-    background-color: rgb(211, 211, 211);
-}
-
-th, td {
-    padding: 5px;
-}
-
-tr {
-    border-bottom: 1px solid black;
 }
 
 /* Footer */
@@ -171,12 +178,12 @@ tr {
     clear: both;
     float: left;
     margin: 25px;
-    font-size: 100%;
+    font-size: 75%;
     width: 45%;
 }
 
 .social-media {
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .social-media li {
@@ -185,15 +192,11 @@ tr {
     margin: 25px;
 }
 
-ul {
-    float: right;
-}
-
 .social-media a {
     color: black;
 }
 
-/* Info page */
+/* Info.html page */
 
 body {
     height: 100%;
@@ -212,15 +215,21 @@ body {
 
 #image-text {
     font-family: Montserrat, sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     padding: 10px;
     border: 1px solid #000;
     background-color: rgba(211, 211, 211, 0.2);
 }
 
+/* Tour info & map section */
+
 #tour-info {
     margin: 30px 15%;
     line-height: 150%;
+}
+
+#tour-info h3 {
+    text-align: center;
 }
 
 #location-map {
@@ -242,7 +251,7 @@ body {
     margin-top: 10px;
 }
 
-/* Form page */
+/* Form.html page */
 
 .form-page {
     font-size: 15px;
@@ -277,7 +286,7 @@ body {
     left: 50%;
     top: 95%;
     transform: translate(-50%, -95%);
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: black;
     color: white;
 }
@@ -320,6 +329,72 @@ textarea:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+/* Media Queries */
+
+/* For tablet screen sizes */
+
+/* index.html */
+
+@media screen and (max-width: 1100px) {
+   
+    .navigation {
+        clear: both;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .opening-text {
+        top: 70%;
+    }
+
+    #booking-link {
+        top: 100%;
+    }
+
+    #story {
+        margin: 5% 0;
+    }
+
+    .why-bike {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    #picture {
+        width: 75%;
+        padding: 0;
+        margin: 0 100px;
+    }
+
+    #list-div {
+        width: 75%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #list-items {
+        margin-left: 25%;
+    }
+
+    /* Form.html */
+
+    .form-page {
+        width: 100%;
+        height: 1100px;
+    }
+
+    .form-details {
+        top: 50%;
+        left: 25%;
+    }
+
+    #confirmation-text {
+        top: 125%;
+    }
+
 }
 
 
