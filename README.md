@@ -1,108 +1,113 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# GBG Cycle Tours
+GBG Cycle Tours is a tour website hoping to encourage people to book a guided bicycle tour around the city of Gothenburg, Sweden.
+The site is aimed at tourists visiting the city particulary, but also for local people who are interested in learning more about the city that they live in. The company also attempts to encourage people to be more active and environmentally friendly by travelling around (or in this case sightseeing) in a sustainable manner while keeping healthy at the same time!
 
-Welcome DanTaylor28,
+The website will be useful by providing important information on the details of the tour and hopefully encouraging people to visit the city and join them for a bicycle tour. Information on the itinerary and attractive pictures of Gothenburg are included throughout the website to give a glimpse of all the beautiful sights there are to see!
+* * * 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Current Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+ ### Navigation bar 
 
-## Gitpod Reminders
+ - The navigation bar is featured on all three pages and includes interactive links to jump to the other sections of the website. The company logo is in hte top left and takes you back to the home page when clicked.
+ 
+ - The links take you to either Home, Tour Information or Book a Tour. This lets you easily switch between pages without the need of using the back button constantly.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ include pic of nav bar here!
 
-`python3 -m http.server`
+ ### The main image 
 
-A blue button should appear to click: _Make Public_,
+ - This first initial image gives a good idea to what this website is all about. It shows a person cycling through the city of Gothenburg.
 
-Another blue button should appear to click: _Open Browser_.
+ - The text overlay is an attention grabbing title along with a call to action button which when clicked, takes you to the Book a tour page.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ picture of main image 
 
-A blue button should appear to click: _Make Public_,
+ ### Welcome section and Table 
 
-Another blue button should appear to click: _Open Browser_.
+ - This paragraph of text gives you a brief introduction of Gothenburg and what can be expected during the tour.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ - The table shows information on the days, times and price of the tour. I laid it out in a table to make that information clear and easily noticeable for somebody glancing over the homepage.
 
-To log into the Heroku toolbelt CLI:
+ - This section would be updated regularly to keep people up to date on any changes in time or dates.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ picture of welcome section
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ ### Why take a bike tour section
 
-------
+ - This section is aimed to show people why taking a bike tour is the best way to see a city!
+ It lists out several reasons why cycling is great to do, along with encouraging the user to sign up for our tour.
 
-## Release History
+ - To the right of this, is an appealing image of people riding bicylces to add some style to the section.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ ### Footer
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ - Like the navigation, the footer is located on all three pages. It includes links to all the relevant social media which open in a new tab. To the left, there is included copyright information.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ - The footer is valuable as it promotes the company on their other social channels and encourages the user to stay connected with us.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ picture of footer here!
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ ### Tour Information page 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+ - The top of the page once again includes a large attractive image to grab the users attention. This page is valuable to the user as it outlines important information regarding the meetup times and what to bring with you etc.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ - This page includes meetup information and a more thorough breakdown of the tours itinerary. A map is included at the bottom of the page with a pin shpwing exactly where the meetup point in the city is.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ pic of tour info
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+ ### Book a Tour page 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ - This page lets the user start the process of booking onto a tour by inputting their details and receiving further information on our availability.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ - The user is asked to fill in how many people they will be and the preferred date, along with their name, email and telephone number.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ pic of form page!
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ ## Additional Features to implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ ### A customer review section
+ - A seperate page where users can read up on past customers experiences from our bicycle tour.
+ * * * 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ ## Testing
+* * *
 
-------
+ ## Validator Testing 
 
-## FAQ about the uptime script
+ html w3c validator 
 
-**Why have you added this script?**
+ css jigsaw validator
+ * * * 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+ ## Unfixed Bugs
+ * * *
 
-**How will this affect me?**
+ ## Deployment
+ * * * 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+ # Credits
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Content 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The icons from the why take a bike tour section and footer were taken from font awesome.
 
-**So….?**
+- I researched how to center a div via transform for my home page by reading on hubspot blog.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- General troubleshooting tips for positioning some of the elements were taken from w3schools.com
+* * *
 
-**Can I opt out?**
+## Media 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- All images used on the site were taken from Unsplash.com
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- The map was taken directly from the Google Map website.
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+
+
+
+
+ 
