@@ -75,9 +75,9 @@ The website will be useful by providing important information on the details of 
 
  ## Validator Testing 
 
- html w3c validator 
+All HTML code passed through the html w3c validator with no issues.
 
- css jigsaw validator
+All CSS passed through the css jigsaw validator with no issues.
  * * * 
 
  ## Unfixed Bugs

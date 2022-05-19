@@ -322,11 +322,11 @@ textarea:hover {
 
 /* Media Queries */
 
-/* For tablet screen sizes 1200px max width */
+/* For tablet screen sizes 1000px max width */
 
 /* index.html */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
    
     .navigation {
         clear: both;
@@ -382,7 +382,7 @@ textarea:hover {
 
 }
 
-/* For mobile screen sizes 650px max width */
+/* For mobile screen sizes 750px max width */
 
 /* Index.html */
 
