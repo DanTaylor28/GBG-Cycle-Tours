@@ -386,7 +386,7 @@ textarea:hover {
 
 /* Index.html */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
 
     body {
         font-size: 90%;
@@ -438,6 +438,21 @@ textarea:hover {
 
     .social-media li {
         margin: 20px;
+    }
+
+    /* Info.html & form.html */
+
+    #image-text {
+        font-size: 150%;
+    }
+
+    .form-page {
+        height: 700px;
+    }
+
+    .form-details {
+        top: 50%;
+        left: 5%;
     }
 } 
 
