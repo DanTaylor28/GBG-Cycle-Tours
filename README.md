@@ -73,6 +73,8 @@ The website will be useful by providing important information on the details of 
  ## Testing
 * * *
 
+When putting the website through lighthouse testing, there was some slight issues with the performance being lower than i wanted but i did not have the time to address this unfortunetaly.
+
  ## Validator Testing 
 
 All HTML code passed through the html w3c validator with no issues.

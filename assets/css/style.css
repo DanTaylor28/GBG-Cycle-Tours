@@ -21,7 +21,7 @@ h1, h2, h3 {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 150%;
-    color: grey;
+    color: #565656;
     float: left;
     margin-left: 30px;
 }
@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 .navigation a {
     text-decoration: none;
-    color: grey;
+    color: #565656;
 }
 
 .heading, .navigation {
@@ -44,12 +44,12 @@ h1, h2, h3 {
 }
 
 .navigation a:hover {
-    border-bottom: 2px solid grey;
-    color: black;
+    border-bottom: 2px solid #231f20;
+    color: #231f20;
 }
 
 .current-page {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #565656;
 }
 
 /* Index.html page */
@@ -64,13 +64,13 @@ h1, h2, h3 {
 }
 
 .opening-text {
-    color: black;
+    color: #565656;
     font-size: 120%;
     text-align: center;
     text-transform: capitalize;
     padding: 10px;
-    border: 2px solid white;
-    background-color: rgba(211, 211, 211, 0.7);
+    border: 2px solid #565656;
+    background-color: rgba(215, 206, 199, 0.9);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -87,17 +87,17 @@ h1, h2, h3 {
 
 #booking-link a {
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: #faf9f6;
+    border: 1px solid #faf9f6;
     border-radius: 5px;
-    background-color: white;
+    background-color: #565656;
     padding: 5px;
 }
 
 #booking-link a:hover {
-    color: white;
-    border: 1px solid white;
-    background-color: black;
+    color: #565656;
+    border: 1px solid #565656;
+    background-color: #d7cec7;
 }
 
 /* About section */
@@ -126,7 +126,7 @@ table {
 #data {
     height: 200px;
     margin-bottom: 10%;
-    background-color: rgb(211, 211, 211);
+    background-color: #d7cec7;
 }
 
 th, td {
@@ -134,7 +134,7 @@ th, td {
 }
 
 tr {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #565656;
 }
 
 /* Why take a bike tour section */
@@ -175,6 +175,7 @@ tr {
 /* Footer */
 
 #copyright {
+    color: #565656;
     clear: both;
     float: left;
     margin: 25px;
@@ -193,7 +194,7 @@ tr {
 }
 
 .social-media a {
-    color: black;
+    color: #565656;
 }
 
 /* Info.html page */
@@ -215,10 +216,11 @@ body {
 
 #image-text {
     font-family: Montserrat, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
+    color: #565656;
     padding: 10px;
-    border: 1px solid #000;
-    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #565656;
+    background-color: rgba(215, 206, 199, 0.9);
 }
 
 /* Tour info & map section */
@@ -228,7 +230,7 @@ body {
     line-height: 150%;
 }
 
-#tour-info h3 {
+#tour-info h2 {
     text-align: center;
 }
 
@@ -243,7 +245,7 @@ body {
     margin: 30px 15%;
 }
 
-#meetup-point h2 {
+#meetup-point h3 {
     margin-bottom: 10px;
 }
 
@@ -277,47 +279,34 @@ body {
     top: 20%;
     max-width: 400px;
     padding: 20px;
-    background-color: rgba(211, 211, 211, 0.7);
+    background-color: rgba(215, 206, 199, 0.9);
 }
 
 .input-boxes {
     width: 95%;
-    background-color: rgba(211, 211, 211, 0.7);
-    border: 1px solid white;
+    background-color: rgba(215, 206, 199, 0.9);
+    border: 1px solid #565656;
     height: 20px;
     margin: 10px;
 }
 
 .input-boxes:hover {
-    border: 1px solid black;
-}
-
-textarea {
-    width: 95%;
-    background-color: rgba(211, 211, 211, 0.7);
-    border: 1px solid white;
-    margin: 10px;
-    font-family: Source-sans-pro, sans-serif;
-    font-size: 15px;
-}
-
-textarea:hover {
-    border: 1px solid black;
+    border: 1px solid #faf9f6;
 }
 
 #submit-button {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
+    background-color: #565656;
+    color: #faf9f6;
+    border: 1px solid #faf9f6;
     border-radius: 5px;
     font-size: 120%;
     margin-left: 120px;
 }
 
 #submit-button:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+    background-color: #faf9f6;
+    color: #565656;
+    border: 1px solid #565656;
 }
 
 /* Media Queries */
