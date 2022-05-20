@@ -1,6 +1,6 @@
 # GBG Cycle Tours
 GBG Cycle Tours is a tour website hoping to encourage people to book a guided bicycle tour around the city of Gothenburg, Sweden.
-The site is aimed at tourists visiting the city particulary, but also for local people who are interested in learning more about the city that they live in. The company also attempts to encourage people to be more active and environmentally friendly by travelling around (or in this case sightseeing) in a sustainable manner while keeping healthy at the same time!
+The site is aimed at tourists visiting the city particulary, but also for local people who are interested in learning more about the history of the city that they live in. The company also attempts to encourage people to be more active and environmentally friendly by travelling around (or in this case sightseeing) in a sustainable manner while keeping healthy at the same time!
 
 The website will be useful by providing important information on the details of the tour and hopefully encouraging people to visit the city and join them for a bicycle tour. Information on the itinerary and attractive pictures of Gothenburg are included throughout the website to give a glimpse of all the beautiful sights there are to see!
 * * * 
@@ -13,7 +13,7 @@ The website will be useful by providing important information on the details of 
  
  - The links take you to either Home, Tour Information or Book a Tour. This lets you easily switch between pages without the need of using the back button constantly.
 
- include pic of nav bar here!
+ ![nav-bar](/assets/images/Navigation%20bar.png)
 
  ### The main image 
 
@@ -21,7 +21,7 @@ The website will be useful by providing important information on the details of 
 
  - The text overlay is an attention grabbing title along with a call to action button which when clicked, takes you to the Book a tour page.
 
- picture of main image 
+ ![main-image](/assets/images/main-image.png)
 
  ### Welcome section and Table 
 
@@ -31,7 +31,7 @@ The website will be useful by providing important information on the details of 
 
  - This section would be updated regularly to keep people up to date on any changes in time or dates.
 
- picture of welcome section
+ ![welcome-section](/assets/images/welcome-section.png)
 
  ### Why take a bike tour section
 
@@ -40,13 +40,15 @@ The website will be useful by providing important information on the details of 
 
  - To the right of this, is an appealing image of people riding bicylces to add some style to the section.
 
+ ![why-take-bike-tour-section](/assets/images/why-take-bike-tour.png)
+
  ### Footer
 
  - Like the navigation, the footer is located on all three pages. It includes links to all the relevant social media which open in a new tab. To the left, there is included copyright information.
 
  - The footer is valuable as it promotes the company on their other social channels and encourages the user to stay connected with us.
 
- picture of footer here!
+ ![footer](/assets/images/footer.png)
 
  ### Tour Information page 
 
@@ -54,7 +56,7 @@ The website will be useful by providing important information on the details of 
 
  - This page includes meetup information and a more thorough breakdown of the tours itinerary. A map is included at the bottom of the page with a pin shpwing exactly where the meetup point in the city is.
 
- pic of tour info
+ ![tour-info-page](/assets/images/tour-info-page.png)
 
  ### Book a Tour page 
 
@@ -62,7 +64,7 @@ The website will be useful by providing important information on the details of 
 
  - The user is asked to fill in how many people they will be and the preferred date, along with their name, email and telephone number.
 
- pic of form page!
+ ![book-tour-page](/assets/images/book-tour-page.png)
 
  ## Additional Features to implement
 
@@ -73,16 +75,21 @@ The website will be useful by providing important information on the details of 
  ## Testing
 * * *
 
-When putting the website through lighthouse testing, there was some slight issues with the performance being lower than i wanted but i did not have the time to address this unfortunetaly.
-
  ## Validator Testing 
 
-All HTML code passed through the html w3c validator with no issues.
+- All HTML code passed through the html w3c validator with no issues.
 
-All CSS passed through the css jigsaw validator with no issues.
+- All CSS passed through the css jigsaw validator with no issues.
+
+![lighthouse-test](/assets/images/Lighthouse%20score.png)
+
  * * * 
 
  ## Unfixed Bugs
+
+- I encountered some issues with performance when i ran lighthouse tests for mobile rather than desktop. This bought my score down to around 80. I did not have time to work on fixing this unfortunataly.
+
+- The way i positioned some elements on the home page early on in development meant that when it came to responsive design, a few of the elements on the main-image section are not cohesive on all size screens.
  * * *
 
  ## Deployment
@@ -91,6 +98,8 @@ All CSS passed through the css jigsaw validator with no issues.
  # Credits
 
 ## Content 
+
+- Inspiration for the nav bar & the form styling was taken from the love running project.
 
 - The icons from the why take a bike tour section and footer were taken from font awesome.
 
