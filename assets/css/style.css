@@ -80,8 +80,8 @@ h1, h2, h3 {
 #booking-link {
     position: absolute;
     top: 75%;
-    left: 50%;
-    transform: translate(-75%, -50%);
+    left: 52%;
+    transform: translate(-75%, -52%);
     font-size: larger;
 }
 
@@ -223,6 +223,10 @@ body {
     background-color: rgba(215, 206, 199, 0.9);
 }
 
+#image-text h2 {
+    text-transform: capitalize;
+}
+
 /* Tour info & map section */
 
 #tour-info {
@@ -301,6 +305,7 @@ body {
     border-radius: 5px;
     font-size: 120%;
     margin-left: 120px;
+    padding: 5px;
 }
 
 #submit-button:hover {
@@ -444,6 +449,49 @@ body {
         left: 5%;
     }
 } 
+
+/* For mobile screen sizes 380px max width */
+
+@media screen and (max-width: 380px) {
+
+    .opening-text {
+        top: 100%;
+    }
+
+    #booking-link {
+        top: 120%;
+    }
+
+    .form-details {
+        top: 80%;
+    }
+
+    .social-media li {
+        margin: 10px;
+    }
+
+    #data {
+        margin-top: 70%;
+    }
+}
+
+/* For landscape orientation on mobile screens */
+
+@media screen and (orientation: landscape)
+and (max-width: 920px) {
+
+    .opening-text {
+        top: 120%;
+    }
+
+    #booking-link {
+        top: 180%;
+    }
+
+    .form-details {
+        top: 100%;
+    }
+}
 
 
 
