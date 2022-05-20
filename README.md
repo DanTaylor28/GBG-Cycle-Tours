@@ -13,7 +13,7 @@ The website will be useful by providing important information on the details of 
  
  - The links take you to either Home, Tour Information or Book a Tour. This lets you easily switch between pages without the need of using the back button constantly.
 
- ![nav-bar](/assets/images/Navigation%20bar.png)
+![navigation-bar](/assets/images/navigation-bar.png)
 
  ### The main image 
 
@@ -73,6 +73,11 @@ The website will be useful by providing important information on the details of 
  * * * 
 
  ## Testing
+
+ - I have tested that the website works on the following different browsers : Chrome, Safari & Firefox.
+ - I have ensured that the site is responsive and works well on different screen sizes. I have tested this in the development tools bar. 
+ - I have tested that the form works as expected. Before you can submit, it ensures that all of the required details are filled in. Also, that an email address is required for the email input, a telephone number for the telephone input etc.
+ - Once the form is submitted, it takes you to a confirmation page showing that your information has been recieved. 
 * * *
 
  ## Validator Testing 
@@ -81,7 +86,7 @@ The website will be useful by providing important information on the details of 
 
 - All CSS passed through the css jigsaw validator with no issues.
 
-![lighthouse-test](/assets/images/Lighthouse%20score.png)
+![lighthouse-score](/assets/images/lighthouse-score.png)
 
  * * * 
 
