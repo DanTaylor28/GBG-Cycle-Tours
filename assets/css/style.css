@@ -15,7 +15,7 @@ h1, h2, h3 {
     letter-spacing: 1px;
 }
 
-/* Header styling */
+/* Header */
 
 .heading {
     text-decoration: none;
@@ -52,6 +52,31 @@ h1, h2, h3 {
     border-bottom: 2px solid #565656;
 }
 
+/* Footer */
+
+#copyright {
+    color: #565656;
+    clear: both;
+    float: left;
+    margin: 25px;
+    font-size: 75%;
+    width: 45%;
+}
+
+.social-media {
+    font-size: 100%;
+}
+
+.social-media li {
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+
+.social-media a {
+    color: #565656;
+}
+
 /* Index.html page */
 
 /* Main image & text */
@@ -59,7 +84,7 @@ h1, h2, h3 {
 #bike-image {
     height: 800px;
     width: 100%;
-    background: url(assets/images/gbg-cycle.jpg) no-repeat center center;
+    background: url('../images/gbg-cycle.jpg') no-repeat center center;
     overflow: hidden;
 }
 
@@ -100,7 +125,7 @@ h1, h2, h3 {
     background-color: #d7cec7;
 }
 
-/* About section */
+/* Welcome section */
 
 .about {
     font-size: 20px;
@@ -123,7 +148,7 @@ table {
     border-collapse: collapse;
 }
 
-#data {
+#meetup-data {
     height: 200px;
     margin-bottom: 10%;
     background-color: #d7cec7;
@@ -144,10 +169,10 @@ tr {
     flex-direction: row;
 }
 
-#picture {
+#girls-biking-image {
     height: 400px;
     width: 50%;
-    background: url(/assets/images/women-riding-bicycles.jpg) no-repeat center center;
+    background: url('../images/women-riding-bicycles.jpg') no-repeat center center;
     padding: 5px;
     overflow: hidden;
     margin-left: 7%;
@@ -164,7 +189,7 @@ tr {
     padding-bottom: 15px;
 }
 
-#list-div {
+#reasons-to-bike {
     margin-left: 10%;
 }
 
@@ -172,32 +197,9 @@ tr {
     margin-bottom: 5%;
 }
 
-/* Footer */
-
-#copyright {
-    color: #565656;
-    clear: both;
-    float: left;
-    margin: 25px;
-    font-size: 75%;
-    width: 45%;
-}
-
-.social-media {
-    font-size: 100%;
-}
-
-.social-media li {
-    float: right;
-    list-style-type: none;
-    margin: 25px;
-}
-
-.social-media a {
-    color: #565656;
-}
-
 /* Info.html page */
+
+/* Main image section */
 
 body {
     height: 100%;
@@ -207,14 +209,14 @@ body {
 #ocean-pic {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/info-image.jpg) no-repeat center center;
+    background: url('../images/info-image.jpg') no-repeat center center;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#image-text {
+#cover-text {
     font-family: Montserrat, sans-serif;
     font-size: 25px;
     color: #565656;
@@ -223,7 +225,7 @@ body {
     background-color: rgba(215, 206, 199, 0.9);
 }
 
-#image-text h2 {
+#cover-text h2 {
     text-transform: capitalize;
 }
 
@@ -259,17 +261,21 @@ body {
 
 /* Form.html page */
 
-.form-page {
+/* Background image */
+
+.form-background {
     font-size: 15px;
     height: 800px;
     width: 100%;
-    background: url(/assets/images/form-background.jpg) no-repeat center center;
+    background: url('../images/form-background.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     clear: left;
 }
 
-.form-page h2 {
+/* Form position & styling */
+
+.form-background h2 {
     font-size: 30px;
     text-transform: capitalize;
     padding: 20px 10px;
@@ -284,6 +290,10 @@ body {
     max-width: 400px;
     padding: 20px;
     background-color: rgba(215, 206, 199, 0.9);
+}
+
+.input-name {
+    margin-left: 10px;
 }
 
 .input-boxes {
@@ -316,7 +326,7 @@ body {
 
 /* Media Queries */
 
-/* For tablet screen sizes 1000px max width */
+/* For medium screen sizes 1000px max width */
 
 /* index.html */
 
@@ -346,13 +356,13 @@ body {
         padding: 0;
     }
 
-    #picture {
+    #girls-biking-image {
         width: 75%;
         padding: 0;
         margin: 0 100px;
     }
 
-    #list-div {
+    #reasons-to-bike {
         width: 100%;
         text-align: center;
         margin: 0;
@@ -364,7 +374,7 @@ body {
 
     /* Form.html */
 
-    .form-page {
+    .form-background {
         width: 100%;
         height: 1200px;
     }
@@ -376,7 +386,7 @@ body {
 
 }
 
-/* For mobile screen sizes 750px max width */
+/* For small screen sizes 750px max width */
 
 /* Index.html */
 
@@ -413,11 +423,11 @@ body {
         top: 80%;
     }
 
-    #data {
+    #meetup-data {
         margin-top: 60%;
     }
 
-    #picture {
+    #girls-biking-image {
         padding: 0;
         margin: 0 auto;
         height: 300px;
@@ -436,11 +446,11 @@ body {
 
     /* Info.html & form.html */
 
-    #image-text {
+    #cover-text {
         font-size: 150%;
     }
 
-    .form-page {
+    .form-background {
         height: 700px;
     }
 
@@ -450,7 +460,7 @@ body {
     }
 } 
 
-/* For mobile screen sizes 380px max width */
+/* For small mobile screen sizes 380px max width */
 
 @media screen and (max-width: 380px) {
 
@@ -470,7 +480,7 @@ body {
         margin: 10px;
     }
 
-    #data {
+    #meetup-data {
         margin-top: 70%;
     }
 }
